@@ -1,2 +1,5 @@
 ---
 # defaults file for dosomething
+
+# Composer
+app_composer_update: no
