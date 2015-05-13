@@ -20,5 +20,4 @@
 
 - name: Composer | Setup GitHub access token
   remote_user: "{{ app_user }}"
-  template: src=auth.json.j2 dest=.composer/auth.json
-  when: app_composer_github_access_token
+  template: src=composer/auth.json.j2 dest=.composer/auth.json
