@@ -5,3 +5,4 @@
   sudo: yes
   with_items:
     - mariadb-client
+    - imagemagick
