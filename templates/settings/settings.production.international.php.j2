@@ -15,4 +15,4 @@ $conf['reverse_proxy_addresses'] = array(
 $conf['reverse_proxy_header'] = 'HTTP_X_FORWARDED_FOR';
 
 $conf['varnish_control_terminal'] = '10.100.40.20:6082';
-$conf['varnish_control_key'] = '{{ app_drupal_hash_salt }}';
+$conf['varnish_control_key'] = '{{ app_varnish_control_key }}';
